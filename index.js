@@ -1,9 +1,9 @@
 const app = require("./app")
 let config= require("./config/config")
 
-let port=config.app.port
+let PORT=config.app.PORT
 
 
-app.listen(port,()=>{
+app.listen(PORT,()=>{
     console.log(`your server is running at http://localhost:${port}`)
 })
